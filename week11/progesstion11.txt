@@ -1,0 +1,2 @@
+ได้ลอง เขียนการ fetch backend  ได้ลองใช้ async function และ ใช้ await ส่งและรอรับ จากendpoint
+รับข้อมูล มาเป็นแปลงเป็น data โดยใช้.json  และดึงมาใช้ จาก for each เพื่อดึงมาทีละ ตัว 
