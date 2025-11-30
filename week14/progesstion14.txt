@@ -1,0 +1,4 @@
+showModal() เป็นfunction ของ htmldialog ทำหน้าที่เรียกpopupมาแสดงข้อความและทำให้ ส่วนข้างหลังกดไม่ได้และมีสีเทาจาง 
+แก้สีได้โดย::backdropใน css มีcharater ลอยอยู่ชั้่นพิเศษเรียก top layer z-index: 9999 ก็ถูกdialogทับอยู่ดี
+และยังมี focustrap ทำให้ปุ่มtap เข้าถึงข้างหลังdialog ไม่ได้   สุดท้าย มีfunction close() ใช้ปิด
+show() vs showModal() show ลอยเฉยๆเข้าถึงข้างหลังได้ showModal()เหมือนalert ต้องจัดการให้เสร็จก่อนใช้ข้างหลัง
